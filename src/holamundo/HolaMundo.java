@@ -15,12 +15,14 @@ public class HolaMundo {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Pez fishi=new Pez(4, "Tripito");
         System.out.println("Hola mundo");
 	System.out.println("Hola mundo ");  //by: Marco, este es con bloc de notas
         System.out.println("no se si este aparesca");  //este es con NetBeans
         System.out.println("..............");
 	System.out.println("Hola mundo ");  //by: Marco
-
+        
+        System.out.println("Mi pez se llama: "+fishi.getNombre()+" él tiene: "+fishi.getAletas()+" aletas.");
     }
     
 }
