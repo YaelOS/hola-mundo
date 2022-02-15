@@ -19,6 +19,7 @@ public class HolaMundo {
 	System.out.println("Hola mundo ");  //by: Marco, este es con bloc de notas
         System.out.println("no se si este aparesca");  //este es con NetBeans
         System.out.println("..............");
+	System.out.println("Hola mundo ");  //by: Marco
 
     }
     
